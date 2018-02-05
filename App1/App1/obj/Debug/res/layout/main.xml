@@ -1,0 +1,16 @@
+<LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" xmlns:ads="http://schemas.android.com/apk/res-auto" xmlns:android="http://schemas.android.com/apk/res/android"><Button android:text="Show Hide" android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/buttonShowHide" /><RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/container_fragments2"><com.google.android.gms.ads.AdView android:id="@+id/adView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerHorizontal="true" ads:adSize="SMART_BANNER" ads:adUnitId="@string/test_banner_ad_unit_id" /><Button android:layout_width="match_parent" android:layout_height="90dp" android:id="@+id/button1" android:background="#0DFFFFFF" /><!--<TextView
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:id="@+id/textView1"
+            android:background="@drawable/ad_overlay" />--></RelativeLayout><RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:id="@+id/container_fragments"><!--<fragment
+            android:name="App1.Fragments.TopSectionFragment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/fragment1" />--><!--<fragment
+            android:name="App1.Fragments.BottomSectionFragment"
+            android:layout_width="275dp"
+            android:layout_height="275dp"
+            android:id="@+id/fragment2"
+            android:layout_centerInParent="true"
+            android:layout_below="@+id/fragment1" />--></RelativeLayout></LinearLayout>
